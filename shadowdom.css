@@ -1,0 +1,22 @@
+input{
+    border: 0;
+}
+input:invalid {
+    border: 2px dashed red;
+}
+
+#input_container{
+    border: 1px solid black;
+    display:flex;
+    width: max-content;
+    order: 1;
+    gap: 1em;
+    
+}
+#length_info {
+    order: 2;
+    margin-left: auto;
+}
+#show_button {
+    order:3;
+}

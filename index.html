@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+</head>
+<body>
+    <h1>Demos</h1>
+    <ul>
+        <li>
+            <p>
+                <password-input>
+            </p>
+            <code>
+                &lt;password-input&gt;
+            </code>
+        </li>
+        <li>
+            <p>
+                <password-input value="hidden text">
+            </p>
+            <code>
+                &lt;password-input value="hidden text"&gt;
+            </code>
+        </li>
+        <li>
+            <p>
+                <password-input value="visible text" shown>
+            </p>
+            <code>
+                &lt;password-input value="visible text" shown&gt;
+            </code>
+        </li>
+        <li>
+            <p>
+                <password-input value="longestpassword" maxlength="15">
+            </p>
+            <code>
+                &lt;password-input value="longestpassword" maxlength="15"&gt;
+            </code>
+        </li>
+        <li>
+            <p>
+
+                <password-input id="colorful" minlength="8" maxlength="15" shown>
+                <style>
+                    #colorful::part(textbox){
+                        background-color:yellow;
+                    }
+                </style>
+            </p>
+            <p>
+                <code>
+                    &lt;password-input id="colorful" minlength="8" maxlength="15" shown&gt;
+                </code>
+            </p>
+  
+            <code>
+                &lt;style&gt;
+                    #colorful::part(textbox){
+                        background-color:yellow;
+                    }
+                &lt;/style&gt;
+            </code>
+        </li>
+    </ul>
+
+</body>
+</html>
